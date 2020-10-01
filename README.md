@@ -1,7 +1,16 @@
 # Lab07 Guide
 ## Getting Started
 
-Please watch the Lab07 Walkthough Video.
+Please watch the [Lab07 Walkthough Video](https://www.youtube.com/playlist?list=PLvnIObHoMl8du99YY40zlZ2jtRnYXi21d).
+
+### Code Style Requirements
+Please review the [CS253 Style Guide](https://docs.google.com/document/d/1zKIpNfkiPpDHEvbx8XSkZbUEUlpt8rnZjkhCSvM-_3A/edit?usp=sharing) and apply it in all lab warmups, lab activities and projects this semester. Coding Style will assessed as part of your lab and project grades.
+
+### Code Quality Requirements
+- Code must compile without warnings using the provided Makefile
+- Programs must handle unexpected user input and either reprompt (loops) or gracefully exit with a non-zero exit status.
+- Programs must handle error conditions gracefully, without crashing, ideally by checking the returns codes (if available) and returning a non-zero exit status.
+- Programs should be free of memory related errors, buffer overflows, stack smashing, etc... Whether the program crashes or not.
 
 ## Lab Warmup - Text Analyzer
 ### Problem Description
