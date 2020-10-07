@@ -9,7 +9,7 @@ Please review the [CS253 Style Guide](https://docs.google.com/document/d/1zKIpNf
 ### Code Quality Requirements
 - Code must compile without warnings using the provided Makefile
 - Programs must handle unexpected user input and either reprompt (loops) or gracefully exit with a non-zero exit status.
-- Programs must handle error conditions gracefully, without crashing, ideally by checking the returns codes (if available) and returning a non-zero exit status.
+- Programs must handle error conditions gracefully, without crashing, ideally by checking function returns codes (if available) and returning a non-zero exit status.
 - Programs should be free of memory related errors, buffer overflows, stack smashing, etc... Whether the program crashes or not.
 
 ## Lab Warmup - Text Analyzer
